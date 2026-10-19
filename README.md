@@ -9,12 +9,11 @@
 
 Sistem Peringatan Dini Satelit (**RADD / GLAD**) baru saja mendeteksi adanya indikasi hilangnya tutupan pohon seluas **20 hektar** di area Koridor Konservasi Hutan Gambut Lindung. Tim respon cepat penegakan hukum lingkungan membutuhkan identifikasi pemicu utama (*direct drivers*) secara otomatis dari data citra satelit sebelum menerjunkan personel ke lapangan.
 
-### **Pertanyaan Bisnis & Operasional**
-> *"Apa pemicu utama (direct driver) dari pembukaan lahan yang terdeteksi satelit, dan tindakan penanganan cepat apa yang harus diambil oleh tim lapangan?"*
+### 🎯 Pertanyaan Utama & Kebutuhan Operasional
+> *"Apa pemicu utama (direct driver) dari pembukaan lahan yang terdeteksi satelit, dan tindakan intervensi cepat apa yang paling tepat diambil oleh tim lapangan?"*
 
 ### **Solusi Data Science & AI**
 Menggunakan model **Deep Learning (Convolutional Neural Network - CNN)** untuk memproses masukan citra satelit multisensor (Sentinel-1 SAR & Sentinel-2 Optik), memprediksi kategori pemicu deforestasi secara otomatis, dan mengevaluasi ketepatannya menggunakan metrik **F1-Score**.
-
 ---
 
 ## 🔄 Metodologi Implementasi AI
